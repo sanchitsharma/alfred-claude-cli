@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.zeitlings.gpt.claude</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>002874FF-3AE4-4E8F-A4F8-65844E5D6CFB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>74890339-2177-4514-B0CD-9D06DF626D21</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>009F4B0B-7B7E-455F-9EA7-51334DBA92F1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>02627B69-31FA-4441-A186-B2095B6F40B9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>02627B69-31FA-4441-A186-B2095B6F40B9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2F3B5565-0BBD-4DC6-962B-BEF7277AC599</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>055D6B34-9A00-49B7-A135-3686D0911EEA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4DB440D5-3814-4C79-9724-D19FDDDA4BEC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>19467065-1FA8-4C92-9F58-797A122BE296</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C95DD27B-A564-4CB6-88F3-EBC83E6E5988</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2EF95279-1807-40A5-B729-78040FF36DE3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>69E7709B-6303-4AE7-8DC3-DE711A831767</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2F3B5565-0BBD-4DC6-962B-BEF7277AC599</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E65D3BEB-6B77-4799-B6BA-A8DBDEFB7167</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>361EA732-1619-44FE-991A-3F0120D41C2F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BA834298-7386-4B4C-9E7D-E2D8542518B0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4DB440D5-3814-4C79-9724-D19FDDDA4BEC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>02627B69-31FA-4441-A186-B2095B6F40B9</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Stop generating answer</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>009F4B0B-7B7E-455F-9EA7-51334DBA92F1</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Start new chat</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A4782A1E-2A93-401B-9CB7-1D8770AD510E</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Copy last answer</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>361EA732-1619-44FE-991A-3F0120D41C2F</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Copy full chat</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>51529F02-C708-4B9B-9C78-9422EAABB8A2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>74890339-2177-4514-B0CD-9D06DF626D21</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>69E7709B-6303-4AE7-8DC3-DE711A831767</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>84A47CA0-9D2D-4F06-A7AD-71C5DEF87663</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>74890339-2177-4514-B0CD-9D06DF626D21</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F87E8DE0-4373-4E35-B112-2E68DC5B10E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>B69CE4C9-724F-4F79-B6B6-CE21E7B41056</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B31B4473-3184-4D6C-B4D9-78FC5DCC7D00</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>879C841D-04CC-40AA-800D-689027CF0FB4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>69E7709B-6303-4AE7-8DC3-DE711A831767</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A4782A1E-2A93-401B-9CB7-1D8770AD510E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BA834298-7386-4B4C-9E7D-E2D8542518B0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A6AD2F54-5A90-4F2A-8585-27AE685FD251</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>002874FF-3AE4-4E8F-A4F8-65844E5D6CFB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A9ABC5CB-D8E3-4E0D-9006-7B7F70A37D50</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B34F5D4B-43D6-47E7-AC9E-0258BF80F186</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B2F04B2C-63AD-4A6D-9A81-7F333D0A075A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>879C841D-04CC-40AA-800D-689027CF0FB4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>B31B4473-3184-4D6C-B4D9-78FC5DCC7D00</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BEF31BF9-C0C4-47F4-9ECA-3D50C2A84EE7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B34F5D4B-43D6-47E7-AC9E-0258BF80F186</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4DB440D5-3814-4C79-9724-D19FDDDA4BEC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BA834298-7386-4B4C-9E7D-E2D8542518B0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7CE25BF5-0AF8-411E-8A05-244BF7CA878F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BEF31BF9-C0C4-47F4-9ECA-3D50C2A84EE7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E5D42111-A4E5-4C7E-AED9-B0A379A66986</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BF340515-39CD-47C9-965D-B1631A3BF45F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>19467065-1FA8-4C92-9F58-797A122BE296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2EF95279-1807-40A5-B729-78040FF36DE3</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Start new chat</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B2F04B2C-63AD-4A6D-9A81-7F333D0A075A</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Browse chat histories</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>C95DD27B-A564-4CB6-88F3-EBC83E6E5988</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F4D88498-0A97-492F-989F-26182BFEEE31</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CBBF8BED-C42D-4793-8FEA-EA80FC94C493</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>19467065-1FA8-4C92-9F58-797A122BE296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2EF95279-1807-40A5-B729-78040FF36DE3</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Start new chat</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>DA9FB2AC-0A0A-463D-B07A-B25CD699C24C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>19467065-1FA8-4C92-9F58-797A122BE296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2EF95279-1807-40A5-B729-78040FF36DE3</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Start new chat</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>E5D42111-A4E5-4C7E-AED9-B0A379A66986</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A9ABC5CB-D8E3-4E0D-9006-7B7F70A37D50</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E65D3BEB-6B77-4799-B6BA-A8DBDEFB7167</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B0805A79-AA30-432C-A7DD-18F900E79413</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>47CD080B-D682-45F5-8F49-A6B7B5B28BC6</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2345B220-18B0-4F70-9DD7-B7A20763FFBC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F4D88498-0A97-492F-989F-26182BFEEE31</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F51DA51D-D1F1-4C2B-9FF9-D3B0B761C227</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F51DA51D-D1F1-4C2B-9FF9-D3B0B761C227</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B31B4473-3184-4D6C-B4D9-78FC5DCC7D00</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>248D5D69-D27D-4C63-A303-B655A95DA08F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BEF31BF9-C0C4-47F4-9ECA-3D50C2A84EE7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F87E8DE0-4373-4E35-B112-2E68DC5B10E8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BEF31BF9-C0C4-47F4-9ECA-3D50C2A84EE7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FA725E90-6083-4024-B085-AA1FBAD00591</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>19467065-1FA8-4C92-9F58-797A122BE296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vítor Galvão &amp; Patrick Sy</string>
+	<key>description</key>
+	<string>Anthropic integrations</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Claude AI</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>new_chat_preserving_question</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>51529F02-C708-4B9B-9C78-9422EAABB8A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>continue_chat</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>FA725E90-6083-4024-B085-AA1FBAD00591</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>new_chat</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>B0805A79-AA30-432C-A7DD-18F900E79413</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function makeDir(path) {
+  $.NSFileManager.defaultManager.createDirectoryAtPathWithIntermediateDirectoriesAttributesError(
+    path, true, undefined, undefined)
+}
+
+function writeFile(path, text) {
+  $(text).writeToFileAtomicallyEncodingError(path, true, $.NSUTF8StringEncoding, undefined)
+}
+
+function mv(initPath, targetPath) {
+  $.NSFileManager.defaultManager.moveItemAtPathToPathError(initPath, targetPath, undefined)
+}
+
+function padDate(number) {
+  return number.toString().padStart(2, "0")
+}
+
+// Constants for archive file name
+const uid = $.NSProcessInfo.processInfo.globallyUniqueString.js.split("-")[0]
+const currentDate = new Date()
+const currentYear = currentDate.getFullYear()
+const currentMonth = padDate(currentDate.getMonth() + 1) // Months are zero-based
+const currentDay = padDate(currentDate.getDate())
+const currentHour = padDate(currentDate.getHours())
+const currentMinute = padDate(currentDate.getMinutes())
+const currentSecond = padDate(currentDate.getSeconds())
+
+// Main
+const currentChat = `${envVar("alfred_workflow_data")}/chat.json`
+const replacementChat = envVar("replace_with_chat")
+const archiveDir = `${envVar("alfred_workflow_data")}/archive`
+const archivedChat = `${archiveDir}/${currentYear}.${currentMonth}.${currentDay}.${currentHour}.${currentMinute}.${currentSecond}-${uid}.json`
+
+makeDir(archiveDir)
+mv(currentChat, archivedChat)
+
+if (replacementChat) {
+  mv(replacementChat, currentChat)
+} else {
+  writeFile(currentChat, "[]")
+}
+
+// Clear session so the next conversation starts fresh (no --resume)
+const sessionFile = `${envVar("alfred_workflow_data")}/session.txt`
+if ($.NSFileManager.defaultManager.fileExistsAtPath(sessionFile)) {
+  $.NSFileManager.defaultManager.removeItemAtPathError(sessionFile, undefined)
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F87E8DE0-4373-4E35-B112-2E68DC5B10E8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>text</key>
+				<string>Ask Claude '{query}'</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>DA9FB2AC-0A0A-463D-B07A-B25CD699C24C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>new_chat</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A6AD2F54-5A90-4F2A-8585-27AE685FD251</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly stream_file="${alfred_workflow_cache}/stream.txt"
+readonly pid_stream_file="${alfred_workflow_cache}/pid.txt"
+readonly pid_stream="$(&lt; "${pid_stream_file}")"
+
+kill "${pid_stream}"
+/bin/rm "${stream_file}" "${pid_stream_file}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>02627B69-31FA-4441-A186-B2095B6F40B9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:chatgpt_history_save}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Save History</string>
+						<key>uid</key>
+						<string>B69CE4C9-724F-4F79-B6B6-CE21E7B41056</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Ignore History</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>74890339-2177-4514-B0CD-9D06DF626D21</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>view_chat</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>2345B220-18B0-4F70-9DD7-B7A20763FFBC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>init_question</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>002874FF-3AE4-4E8F-A4F8-65844E5D6CFB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:new_chat}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>New Chat</string>
+						<key>uid</key>
+						<string>47CD080B-D682-45F5-8F49-A6B7B5B28BC6</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Continue</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>E65D3BEB-6B77-4799-B6BA-A8DBDEFB7167</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>{const:alfred_workflow_data}/chat.json</string>
+				<key>filetext</key>
+				<string>[]</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>B31B4473-3184-4D6C-B4D9-78FC5DCC7D00</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:init_question}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>streaming_now</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2F3B5565-0BBD-4DC6-962B-BEF7277AC599</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>init_question</key>
+					<string>{query}</string>
+					<key>new_chat</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>009F4B0B-7B7E-455F-9EA7-51334DBA92F1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsfiles</key>
+				<false/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
+				<true/>
+				<key>acceptsurls</key>
+				<false/>
+				<key>name</key>
+				<string>Ask Claude</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.universalaction</string>
+			<key>uid</key>
+			<string>CBBF8BED-C42D-4793-8FEA-EA80FC94C493</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>if [[ -f "${alfred_workflow_cache}/chat.json" ]]
+then
+  /bin/mkdir -p "${alfred_workflow_data}"
+  /bin/mv "${alfred_workflow_cache}/chat.json" "${alfred_workflow_data}/chat.json"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C95DD27B-A564-4CB6-88F3-EBC83E6E5988</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>target_path</key>
+					<string>{const:alfred_workflow_data}/chat.json</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/path.exists</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>F4D88498-0A97-492F-989F-26182BFEEE31</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function readChat(path) {
+  const chatString = $.NSString.stringWithContentsOfFileEncodingError(path, $.NSUTF8StringEncoding, undefined).js
+  return JSON.parse(chatString)
+}
+
+// Main
+function run() {
+  const chatFile = `${envVar("alfred_workflow_data")}/chat.json`
+  return readChat(chatFile).findLast(message =&gt; message["role"] === "assistant")["content"]
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A4782A1E-2A93-401B-9CB7-1D8770AD510E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/directory.new</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>A9ABC5CB-D8E3-4E0D-9006-7B7F70A37D50</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>7CE25BF5-0AF8-411E-8A05-244BF7CA878F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>behaviour</key>
+				<integer>2</integer>
+				<key>fontmode</key>
+				<integer>0</integer>
+				<key>fontsizing</key>
+				<integer>0</integer>
+				<key>footertext</key>
+				<string>↩ Ask question · ⌘↩ New chat · ⌥↩ Copy last · ⌃↩ Copy all · ⇧↩ Interrupt</string>
+				<key>inputfile</key>
+				<string>claude.js</string>
+				<key>inputtype</key>
+				<integer>1</integer>
+				<key>loadingtext</key>
+				<string>Querying Claude…</string>
+				<key>outputmode</key>
+				<integer>1</integer>
+				<key>scriptinput</key>
+				<integer>2</integer>
+				<key>spellchecking</key>
+				<integer>0</integer>
+				<key>stackview</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.text</string>
+			<key>uid</key>
+			<string>4DB440D5-3814-4C79-9724-D19FDDDA4BEC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Start Anew</string>
+						<key>uid</key>
+						<string>248D5D69-D27D-4C63-A303-B655A95DA08F</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Continue</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>F51DA51D-D1F1-4C2B-9FF9-D3B0B761C227</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>init_question</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>19467065-1FA8-4C92-9F58-797A122BE296</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:init_question}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B34F5D4B-43D6-47E7-AC9E-0258BF80F186</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>
+</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>1</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>E5D42111-A4E5-4C7E-AED9-B0A379A66986</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>BA834298-7386-4B4C-9E7D-E2D8542518B0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{const:alfred_workflow_data}
+{const:alfred_workflow_cache}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BEF31BF9-C0C4-47F4-9ECA-3D50C2A84EE7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>{var:chatgpt_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>↩ Continue chat · ⌘↩ New chat · ⌥↩ Chat history</string>
+				<key>text</key>
+				<string>Ask Claude</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BF340515-39CD-47C9-965D-B1631A3BF45F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>new_chat_preserving_question</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>84A47CA0-9D2D-4F06-A7AD-71C5DEF87663</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>if [[ -f "${alfred_workflow_cache}/chat.json" ]]
+then
+  /bin/mkdir -p "${alfred_workflow_data}"
+  /bin/mv "${alfred_workflow_cache}/chat.json" "${alfred_workflow_data}/chat.json"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>69E7709B-6303-4AE7-8DC3-DE711A831767</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+
+function readChat(path) {
+  const chatString = $.NSString.stringWithContentsOfFileEncodingError(path, $.NSUTF8StringEncoding, undefined).js
+  return JSON.parse(chatString)
+}
+
+function markdownChat(messages, ignoreLastInterrupted = true) {
+  return messages.reduce((accumulator, current, index, allMessages) =&gt; {
+    if (current["role"] === "assistant")
+      return `${accumulator}${current["content"]}\n\n`
+
+    if (current["role"] === "user") {
+      const userTwice = allMessages[index + 1]?.["role"] === "user" // "user" role twice in a row
+      const lastMessage = index === allMessages.length - 1 // "user is last message
+
+      return userTwice || (lastMessage &amp;&amp; !ignoreLastInterrupted) ?
+        `${accumulator}### ${current["content"]}\n\n[Answer Interrupted]\n\n` :
+        `${accumulator}### ${current["content"]}\n\n`
+    }
+
+    // Ignore any other role
+    return accumulator
+  }, "")
+}
+
+// Main
+function run() {
+  const chatFile = `${envVar("alfred_workflow_data")}/chat.json`
+  return markdownChat(readChat(chatFile), false)
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>361EA732-1619-44FE-991A-3F0120D41C2F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>view_chat</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>055D6B34-9A00-49B7-A135-3686D0911EEA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>init_question</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2EF95279-1807-40A5-B729-78040FF36DE3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading Histories…</string>
+				<key>script</key>
+				<string>function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function dirContents(path) {
+  return $.NSFileManager.defaultManager.contentsOfDirectoryAtURLIncludingPropertiesForKeysOptionsError(
+    $.NSURL.fileURLWithPath(path), undefined, $.NSDirectoryEnumerationSkipsHiddenFiles, undefined)
+    .js.map(p =&gt; p.path.js).sort()
+}
+
+function readChat(path) {
+  const chatString = $.NSString.stringWithContentsOfFileEncodingError(path, $.NSUTF8StringEncoding, undefined).js
+  return JSON.parse(chatString)
+}
+
+function trashChat(path) {
+  const fileURL = $.NSURL.fileURLWithPath(path)
+  $.NSFileManager.defaultManager.trashItemAtURLResultingItemURLError(fileURL, undefined, undefined)
+}
+
+function noArchives() {
+  return JSON.stringify({ items: [{
+    title: "No Chat History Found",
+    subtitle: "Archives are created when starting new conversations",
+    valid: false
+  }]})
+}
+
+function run() {
+  const archiveDir = `${envVar("alfred_workflow_data")}/archive`
+  if (!$.NSFileManager.defaultManager.fileExistsAtPath(archiveDir)) return noArchives()
+
+  const sfItems = dirContents(archiveDir)
+    .filter(file =&gt; file.endsWith(".json"))
+    .toReversed()
+    .flatMap(file =&gt; {
+      const chatContents = readChat(file)
+      const firstQuestion = chatContents.find(item =&gt; item["role"] === "user")?.["content"]
+      const lastQuestion = chatContents.toReversed().find(item =&gt; item["role"] === "user")?.["content"]
+
+      // Delete invalid chats
+      if (!firstQuestion) trashChat(file)
+
+      return {
+        type: "file",
+        title: firstQuestion,
+        subtitle: lastQuestion,
+        match: `${firstQuestion} ${lastQuestion}`,
+        arg: file
+      }
+    })
+
+  if (sfItems.length === 0) return noArchives()
+
+  return JSON.stringify({ items: sfItems })
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>ClaudeAI Chat History</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>B2F04B2C-63AD-4A6D-9A81-7F333D0A075A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>chatgpt_history_save</key>
+					<string>1</string>
+					<key>replace_with_chat</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>879C841D-04CC-40AA-800D-689027CF0FB4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>![logo](icon.png)
+
+# Anthropic AI | Claude
+
+This is a modified version of the official Alfred ChatGPT workflow. [Visit on Github](https://github.com/zeitlings/alfred-anthropic/).
+
+---
+
+## Setup
+
+1. Create an Anthropic account and [log in](https://console.anthropic.com/login).
+2. On the [API keys page](https://console.anthropic.com/settings/keys), click `Create Key`.
+3. Name your new secret key and click `Create Key`.
+4. Copy your secret key and add it to the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+
+## Usage
+
+### Claude
+
+Query Claude via the `claude` keyword, the [Universal Action](https://www.alfredapp.com/help/features/universal-actions/), or the [Fallback Search](https://www.alfredapp.com/help/features/default-results/fallback-searches/).
+
+![Start Claude query](images/about/claudekeyword.png)
+
+![Querying Claude](images/about/claudetextview.png)
+
+* &lt;kbd&gt;↩&lt;/kbd&gt; Ask a new question.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Clear and start new chat.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy last answer.
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy full chat.
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Stop generating answer.
+
+#### Chat History
+
+View Chat History with ⌥↩ in the `chatgpt` keyword. Each result shows the first question as the title and the last as the subtitle.
+
+![Viewing chat histories](images/about/claudehistory.png)
+
+&lt;kbd&gt;↩&lt;/kbd&gt; to archive the current chat and load the selected one. Older chats can be trashed with the `Delete` [Universal Action](https://www.alfredapp.com/help/features/universal-actions/). Select multiple chats with the [File Buffer](https://www.alfredapp.com/help/features/file-search/#file-buffer).</string>
+	<key>uidata</key>
+	<dict>
+		<key>002874FF-3AE4-4E8F-A4F8-65844E5D6CFB</key>
+		<dict>
+			<key>xpos</key>
+			<real>870</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>009F4B0B-7B7E-455F-9EA7-51334DBA92F1</key>
+		<dict>
+			<key>xpos</key>
+			<real>1890</real>
+			<key>ypos</key>
+			<real>235</real>
+		</dict>
+		<key>02627B69-31FA-4441-A186-B2095B6F40B9</key>
+		<dict>
+			<key>note</key>
+			<string>Stop stream process</string>
+			<key>xpos</key>
+			<real>1995</real>
+			<key>ypos</key>
+			<real>205</real>
+		</dict>
+		<key>055D6B34-9A00-49B7-A135-3686D0911EEA</key>
+		<dict>
+			<key>xpos</key>
+			<real>1490</real>
+			<key>ypos</key>
+			<real>470</real>
+		</dict>
+		<key>19467065-1FA8-4C92-9F58-797A122BE296</key>
+		<dict>
+			<key>xpos</key>
+			<real>275</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>2345B220-18B0-4F70-9DD7-B7A20763FFBC</key>
+		<dict>
+			<key>xpos</key>
+			<real>2360</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>2EF95279-1807-40A5-B729-78040FF36DE3</key>
+		<dict>
+			<key>xpos</key>
+			<real>275</real>
+			<key>ypos</key>
+			<real>485</real>
+		</dict>
+		<key>2F3B5565-0BBD-4DC6-962B-BEF7277AC599</key>
+		<dict>
+			<key>xpos</key>
+			<real>2145</real>
+			<key>ypos</key>
+			<real>235</real>
+		</dict>
+		<key>361EA732-1619-44FE-991A-3F0120D41C2F</key>
+		<dict>
+			<key>xpos</key>
+			<real>1995</real>
+			<key>ypos</key>
+			<real>470</real>
+		</dict>
+		<key>4DB440D5-3814-4C79-9724-D19FDDDA4BEC</key>
+		<dict>
+			<key>xpos</key>
+			<real>1745</real>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>51529F02-C708-4B9B-9C78-9422EAABB8A2</key>
+		<dict>
+			<key>xpos</key>
+			<real>725</real>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+		<key>69E7709B-6303-4AE7-8DC3-DE711A831767</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>455</real>
+			<key>ypos</key>
+			<real>455</real>
+		</dict>
+		<key>74890339-2177-4514-B0CD-9D06DF626D21</key>
+		<dict>
+			<key>xpos</key>
+			<real>980</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>7CE25BF5-0AF8-411E-8A05-244BF7CA878F</key>
+		<dict>
+			<key>xpos</key>
+			<real>2360</real>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>84A47CA0-9D2D-4F06-A7AD-71C5DEF87663</key>
+		<dict>
+			<key>xpos</key>
+			<real>630</real>
+			<key>ypos</key>
+			<real>455</real>
+		</dict>
+		<key>879C841D-04CC-40AA-800D-689027CF0FB4</key>
+		<dict>
+			<key>xpos</key>
+			<real>400</real>
+			<key>ypos</key>
+			<real>645</real>
+		</dict>
+		<key>A4782A1E-2A93-401B-9CB7-1D8770AD510E</key>
+		<dict>
+			<key>xpos</key>
+			<real>1995</real>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>A6AD2F54-5A90-4F2A-8585-27AE685FD251</key>
+		<dict>
+			<key>xpos</key>
+			<real>725</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>A9ABC5CB-D8E3-4E0D-9006-7B7F70A37D50</key>
+		<dict>
+			<key>xpos</key>
+			<real>1490</real>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>B0805A79-AA30-432C-A7DD-18F900E79413</key>
+		<dict>
+			<key>xpos</key>
+			<real>2360</real>
+			<key>ypos</key>
+			<real>100</real>
+		</dict>
+		<key>B2F04B2C-63AD-4A6D-9A81-7F333D0A075A</key>
+		<dict>
+			<key>xpos</key>
+			<real>230</real>
+			<key>ypos</key>
+			<real>615</real>
+		</dict>
+		<key>B31B4473-3184-4D6C-B4D9-78FC5DCC7D00</key>
+		<dict>
+			<key>xpos</key>
+			<real>1130</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>B34F5D4B-43D6-47E7-AC9E-0258BF80F186</key>
+		<dict>
+			<key>xpos</key>
+			<real>1660</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>BA834298-7386-4B4C-9E7D-E2D8542518B0</key>
+		<dict>
+			<key>xpos</key>
+			<real>2235</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>BEF31BF9-C0C4-47F4-9ECA-3D50C2A84EE7</key>
+		<dict>
+			<key>xpos</key>
+			<real>1360</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>BF340515-39CD-47C9-965D-B1631A3BF45F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>455</real>
+		</dict>
+		<key>C95DD27B-A564-4CB6-88F3-EBC83E6E5988</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>460</real>
+			<key>ypos</key>
+			<real>325</real>
+		</dict>
+		<key>CBBF8BED-C42D-4793-8FEA-EA80FC94C493</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>325</real>
+		</dict>
+		<key>DA9FB2AC-0A0A-463D-B07A-B25CD699C24C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>E5D42111-A4E5-4C7E-AED9-B0A379A66986</key>
+		<dict>
+			<key>xpos</key>
+			<real>1425</real>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+		<key>E65D3BEB-6B77-4799-B6BA-A8DBDEFB7167</key>
+		<dict>
+			<key>xpos</key>
+			<real>2220</real>
+			<key>ypos</key>
+			<real>225</real>
+		</dict>
+		<key>F4D88498-0A97-492F-989F-26182BFEEE31</key>
+		<dict>
+			<key>xpos</key>
+			<real>630</real>
+			<key>ypos</key>
+			<real>325</real>
+		</dict>
+		<key>F51DA51D-D1F1-4C2B-9FF9-D3B0B761C227</key>
+		<dict>
+			<key>xpos</key>
+			<real>785</real>
+			<key>ypos</key>
+			<real>345</real>
+		</dict>
+		<key>F87E8DE0-4373-4E35-B112-2E68DC5B10E8</key>
+		<dict>
+			<key>xpos</key>
+			<real>1130</real>
+			<key>ypos</key>
+			<real>105</real>
+		</dict>
+		<key>FA725E90-6083-4024-B085-AA1FBAD00591</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>55</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>chatgpt</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>chatgpt_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>/Applications/cmux.app/Contents/Resources/bin/claude</string>
+				<key>placeholder</key>
+				<string>Path to claude binary</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Path to the Claude Code CLI binary. Find with: which claude</string>
+			<key>label</key>
+			<string>Claude CLI Path</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>claude_cli_path</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Save current chat when starting a new one</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Keep History</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>chatgpt_history_save</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>sonnet</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Claude Sonnet (recommended)</string>
+						<string>sonnet</string>
+					</array>
+					<array>
+						<string>Claude Opus (most capable)</string>
+						<string>opus</string>
+					</array>
+					<array>
+						<string>Claude Haiku (fastest)</string>
+						<string>haiku</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Claude model to use. Uses your Claude subscription — no API key needed.</string>
+			<key>label</key>
+			<string>Model</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>gpt_model</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>1024</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>256 tokens</string>
+						<string>256</string>
+					</array>
+					<array>
+						<string>512 tokens</string>
+						<string>512</string>
+					</array>
+					<array>
+						<string>1024 tokens</string>
+						<string>1024</string>
+					</array>
+					<array>
+						<string>2048 tokens</string>
+						<string>2048</string>
+					</array>
+					<array>
+						<string>3072 tokens</string>
+						<string>3072</string>
+					</array>
+					<array>
+						<string>3584 tokens</string>
+						<string>3584</string>
+					</array>
+					<array>
+						<string>4096 tokens</string>
+						<string>4096</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>The maximum length setting determines the maximum number of output tokens (words or subwords) that the model will generate. Once the model has generated the specified number of output tokens, it will stop producing any further text.</string>
+			<key>label</key>
+			<string>Maximum Length</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>claude_max_tokens</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+				<key>verticalsize</key>
+				<integer>9</integer>
+			</dict>
+			<key>description</key>
+			<string>A system prompt is a way to provide context, instructions, and guidelines to Claude before presenting it with a question or task. By using a system prompt, you can set the stage for the conversation, specifying Claude's role, personality, tone, or any other relevant information that will help it better understand and respond to the user's input.
+
+https://docs.anthropic.com/claude/docs/system-prompts</string>
+			<key>label</key>
+			<string>System Prompt</string>
+			<key>type</key>
+			<string>textarea</string>
+			<key>variable</key>
+			<string>system_prompt</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/zeitlings/alfred-anthropic/</string>
+</dict>
+</plist>
