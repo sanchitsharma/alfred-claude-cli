@@ -25,7 +25,11 @@ Uses the Claude Code CLI (`claude`) for auth, which logs in via your Claude Pro/
 3. Open Alfred Preferences → Workflows → Claude AI → `[x]` and configure:
    - **Claude CLI Path** — output of `which claude`
    - **Keyword** — default is `chatgpt`, change to `claude` or anything you prefer
+   - **Working Directory** — directory the `claude` CLI runs in (where it picks up project files / `CLAUDE.md`). A leading `~` is expanded. Blank = Alfred's default cwd.
+   - **Skip Permissions** — on by default; passes `--dangerously-skip-permissions` so Claude never pauses for tool-permission approval. Only keep enabled if you trust the Working Directory scope.
    - **Model** — Sonnet (recommended), Opus, or Haiku
+
+To open your **current chat without typing the keyword**, assign a hotkey: in the workflow canvas, double-click the *Hotkey* node (top-left, labelled "Open current chat") and record your shortcut.
 
 ## Usage
 

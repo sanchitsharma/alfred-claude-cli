@@ -68,7 +68,7 @@ function readSessionId(sessionFile) {
 // Launches the claude CLI as a subprocess, piping stdout to streamFile.
 // Uses --resume <session_id> for multi-turn context (no full history in prompt).
 // Args are passed directly to execv() — no shell, no injection risk.
-function startStream(claudeCLI, model, systemPrompt, ongoingChat, streamFile, pidStreamFile, sessionFile) {
+function startStream(claudeCLI, model, systemPrompt, ongoingChat, streamFile, pidStreamFile, sessionFile, workdir) {
   $.NSFileManager.defaultManager.createFileAtPathContentsAttributes($(streamFile), $(""), undefined)
 
   const task = $.NSTask.alloc.init
@@ -83,6 +83,12 @@ function startStream(claudeCLI, model, systemPrompt, ongoingChat, streamFile, pi
     "--include-partial-messages",
     "--model", model
   ]
+
+  // Skip tool-permission prompts (config toggle, on by default).
+  // Alfred sets checkbox vars to "1"/"0"; treat anything but "0" as enabled.
+  if (envVar("claude_skip_permissions") !== "0") {
+    args.push("--dangerously-skip-permissions")
+  }
 
   const sessionId = readSessionId(sessionFile)
 
@@ -99,6 +105,15 @@ function startStream(claudeCLI, model, systemPrompt, ongoingChat, streamFile, pi
 
   task.executableURL = $.NSURL.fileURLWithPath($(claudeCLI))
   task.arguments = args
+
+  // Working directory the claude CLI runs in. Blank = inherit Alfred's cwd.
+  // Expands a leading ~ and only sets it if the path exists.
+  if (workdir && workdir.length > 0) {
+    const expanded = $(workdir).stringByExpandingTildeInPath.js
+    if (fileExists(expanded)) {
+      task.currentDirectoryURL = $.NSURL.fileURLWithPath($(expanded))
+    }
+  }
 
   // Redirect stdout to streamFile
   const fh = $.NSFileHandle.fileHandleForWritingAtPath($(streamFile))
@@ -213,6 +228,7 @@ function run(argv) {
   const claudeCLI = envVar("claude_cli_path") || "/Applications/cmux.app/Contents/Resources/bin/claude"
   const systemPrompt = envVar("system_prompt")
   const model = envVar("gpt_model") || "sonnet"
+  const workdir = envVar("claude_workdir")
 
   const chatFile = `${envVar("alfred_workflow_data")}/chat.json`
   const pidStreamFile = `${envVar("alfred_workflow_cache")}/pid.txt`
@@ -239,7 +255,7 @@ function run(argv) {
   const appendQuery = { role: "user", content: typedQuery }
   const ongoingChat = previousChat.concat(appendQuery)
 
-  startStream(claudeCLI, model, systemPrompt, ongoingChat, streamFile, pidStreamFile, sessionFile)
+  startStream(claudeCLI, model, systemPrompt, ongoingChat, streamFile, pidStreamFile, sessionFile, workdir)
   appendChat(chatFile, appendQuery)
 
   return JSON.stringify({

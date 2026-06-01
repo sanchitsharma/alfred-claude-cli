@@ -8,6 +8,19 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>971D0012-3717-4723-9281-ABE4DBFAE521</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>19467065-1FA8-4C92-9F58-797A122BE296</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>002874FF-3AE4-4E8F-A4F8-65844E5D6CFB</key>
 		<array>
 			<dict>
@@ -528,6 +541,37 @@
 	<string>Claude AI</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>971D0012-3717-4723-9281-ABE4DBFAE521</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -1512,6 +1556,15 @@ View Chat History with ⌥↩ in the `chatgpt` keyword. Each result shows the fi
 &lt;kbd&gt;↩&lt;/kbd&gt; to archive the current chat and load the selected one. Older chats can be trashed with the `Delete` [Universal Action](https://www.alfredapp.com/help/features/universal-actions/). Select multiple chats with the [File Buffer](https://www.alfredapp.com/help/features/file-search/#file-buffer).</string>
 	<key>uidata</key>
 	<dict>
+		<key>971D0012-3717-4723-9281-ABE4DBFAE521</key>
+		<dict>
+			<key>note</key>
+			<string>Open current chat (assign a hotkey)</string>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>700</real>
+		</dict>
 		<key>002874FF-3AE4-4E8F-A4F8-65844E5D6CFB</key>
 		<dict>
 			<key>xpos</key>
@@ -1813,6 +1866,46 @@ View Chat History with ⌥↩ in the `chatgpt` keyword. Each result shows the fi
 			<string>filepicker</string>
 			<key>variable</key>
 			<string>claude_cli_path</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>e.g. ~/Projects  (blank = home / Alfred default)</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Directory the claude CLI runs in. This is where it picks up project context (files, CLAUDE.md). A leading ~ is expanded. Leave blank to inherit Alfred's default working directory.</string>
+			<key>label</key>
+			<string>Working Directory</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>claude_workdir</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Run with --dangerously-skip-permissions (no tool-permission prompts)</string>
+			</dict>
+			<key>description</key>
+			<string>Passes --dangerously-skip-permissions to the claude CLI so it never pauses for tool-permission approval. Convenient for a headless Alfred chat, but it lets Claude read/write/execute in the Working Directory without asking — only enable if you trust that scope.</string>
+			<key>label</key>
+			<string>Skip Permissions</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>claude_skip_permissions</string>
 		</dict>
 		<dict>
 			<key>config</key>
